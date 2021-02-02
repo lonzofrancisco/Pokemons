@@ -1,0 +1,66 @@
+*{
+    font-family: 'Pokemon Hollow Normal', Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+@font-face {
+font-family: 'Pokemon Hollow Normal';
+
+src: local('Pokemon Hollow Normal'), url('../styles/fonts/PokemonSolid.woff') format('woff');
+}
+    
+
+body{
+    background-color: #2d2d2d;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    border:1px solid black;
+
+    background-color: blanchedalmond;
+}
+
+.card{
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    font-size: large;
+
+}
+.card-info{
+    margin-bottom: 20px;
+}
+input{
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.btn{
+    width: 40%;
+    height: 50px;
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:{
+    margin-top: -200;
+}
+.btn:hover{
+
+}
